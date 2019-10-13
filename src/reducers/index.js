@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
+import ui from './ui';
+import products from './products';
 
 export default combineReducers({
-  products: (state = []) => state,
+  products,
   cart: (state = {}) => state,
-  loading: (state = false) => state,
+  ui,
 });

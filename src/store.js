@@ -6,7 +6,11 @@ import reducer from './reducers';
 const initialState = {
   products: [],
   cart: {},
-  loading: false,
+  ui: {
+    loading: false,
+    cartShown: false,
+    menuShown: false,
+  },
 };
 
 export default (initState = initialState) => {
