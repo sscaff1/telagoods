@@ -16,7 +16,7 @@
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
     "dotenv-webpack": "^1.7.0",
     "evergreen-ui": "^4.19.3",
-    "next": "^9.1.1",
+    "next": "^11.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
